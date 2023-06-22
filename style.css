@@ -1,0 +1,145 @@
+body {
+    background-color:#1E566C;
+  }
+
+  .navbar-brand {
+    height: 4.5em;
+}
+
+#MainIntro {
+    margin: 5em;
+    padding-left: 0.625em;
+    padding-top: 10em;
+    color: white;
+    display: inline-flex;
+    font-family: 'Playfair', serif;
+}
+
+.middle {
+  padding-left: 1.875em;
+}
+
+#education {
+  margin-bottom: 0;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.post {
+  width: 50em;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-top: 3em;
+  }
+
+.name {
+  font-family: 'Frank Ruhl Libre', serif;
+
+}
+
+#footer {
+  padding-bottom: 1.25em;
+  padding-top: 6.25em;
+}
+
+.resize {
+  width: 25em;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-top: 3em;
+}
+
+.intro {
+  width: 25em;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-top: 3em;
+  color: white;
+}
+
+.wide {
+  width: 15.625em;
+  display: block;
+  margin-left: 12.5em;
+  margin-right: auto;
+}
+
+.change {
+  width: 25em;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-top: 3em;
+  color: white;
+}
+
+.present {
+  width: 25em;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-top: 3em;
+  color: white;
+}
+
+@media only screen and (min-width: 801px) {
+
+.wide {
+ margin: auto;
+}
+
+.change {
+  width: 16em;
+}
+
+.change h1 {
+  font-size: 7em;
+}
+
+.change p {
+  font-size: 1.33em;
+}
+
+.intro {
+  width: 16em;
+}
+
+.intro h1 {
+  font-size: 7em;
+}
+
+.intro p {
+  font-size: 1.33em;
+}
+
+.present {
+  width: 15em;
+}
+
+.present h1 {
+ font-size: 7em;
+}
+
+.present p {
+  font-size: 1.33em;
+}
+
+}
+
+@media only screen and (min-width: 2155px) {
+
+#MainIntro {
+  margin-left: 48.5em;
+  margin-right: auto;
+  display: block;
+}
+
+#MainIntro h1 {
+  font-size: 7em;
+}
+
+#MainIntro p {
+  font-size: 1.3em;
+}
+
+}

@@ -6,19 +6,6 @@ body {
     height: 4.5em;
 }
 
-#MainIntro {
-    margin: 5em;
-    padding-left: 0.625em;
-    padding-top: 10em;
-    color: white;
-    display: inline-flex;
-    font-family: 'Playfair', serif;
-}
-
-.middle {
-  padding-left: 1.875em;
-}
-
 #education {
   margin-bottom: 0;
 }
@@ -28,16 +15,12 @@ body {
 }
 
 .post {
-  width: 50em;
-  margin-left: auto ;
-  margin-right: auto ;
+  width: 60%;
+  margin-left: 22%;
+  margin-right: 22%;
   padding-top: 3em;
+  margin-top: 2em;
   }
-
-.name {
-  font-family: 'Frank Ruhl Libre', serif;
-
-}
 
 #footer {
   padding-bottom: 1.25em;
@@ -48,28 +31,39 @@ body {
   width: 25em;
   margin-left: auto ;
   margin-right: auto ;
-  padding-top: 3em;
 }
 
-@media only screen and (min-width: 1090px) {
 
-#MainIntro {
-  margin: auto;
-  padding-top: 10em;
-  padding-left: 0;
+#mainIntro {
   color: white;
-  display: block;
-  font-family: 'Playfair', serif;
-  font-size: 1.5em;
+  padding-top: 1em;
+  margin: 1em;
 }
 
-.middle {
-  margin-left: 20%;
-  margin-right: 20%;
+.intro {
+  margin:0;
 }
 
 .name {
-  padding-left: 5em;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+#profilePic {
+  margin: .025em;
+}
+
+@media only screen and (min-width: 1360px)  {
+
+#profilePic {
+  margin-left: 20%;
+  margin-right: 20%;
+}  
+
+#mainIntro {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 }
+

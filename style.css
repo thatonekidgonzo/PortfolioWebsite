@@ -51,95 +51,25 @@ body {
   padding-top: 3em;
 }
 
-.intro {
-  width: 25em;
-  margin-left: auto ;
-  margin-right: auto ;
-  padding-top: 3em;
-  color: white;
-}
-
-.wide {
-  width: 15.625em;
-  display: block;
-  margin-left: 12.5em;
-  margin-right: auto;
-}
-
-.change {
-  width: 25em;
-  margin-left: auto ;
-  margin-right: auto ;
-  padding-top: 3em;
-  color: white;
-}
-
-.present {
-  width: 25em;
-  margin-left: auto ;
-  margin-right: auto ;
-  padding-top: 3em;
-  color: white;
-}
-
-@media only screen and (min-width: 801px) {
-
-.wide {
- margin: auto;
-}
-
-.change {
-  width: 16em;
-}
-
-.change h1 {
-  font-size: 7em;
-}
-
-.change p {
-  font-size: 1.33em;
-}
-
-.intro {
-  width: 16em;
-}
-
-.intro h1 {
-  font-size: 7em;
-}
-
-.intro p {
-  font-size: 1.33em;
-}
-
-.present {
-  width: 15em;
-}
-
-.present h1 {
- font-size: 7em;
-}
-
-.present p {
-  font-size: 1.33em;
-}
-
-}
-
-@media only screen and (min-width: 2155px) {
+@media only screen and (min-width: 1090px) {
 
 #MainIntro {
-  margin-left: 48.5em;
-  margin-right: auto;
+  margin: auto;
+  padding-top: 10em;
+  padding-left: 0;
+  color: white;
   display: block;
+  font-family: 'Playfair', serif;
+  font-size: 1.5em;
 }
 
-#MainIntro h1 {
-  font-size: 7em;
+.middle {
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-#MainIntro p {
-  font-size: 1.3em;
+.name {
+  padding-left: 5em;
 }
 
 }
